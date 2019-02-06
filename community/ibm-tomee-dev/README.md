@@ -65,6 +65,23 @@ Alternatively, a YAML file that specifies the values for the parameters can be p
 $ helm install --name my-release -f values.yaml stable/ibm-tomee-dev
 ```
 
+
+## Support
+
+The helm charts are provided "as-is" and without warranty of any kind.
+
+All helm charts and packages are supported through standard open source forums and helm charts are updated on a best effort basis.
+
+Any issues found can be reported through the links below, and fixes may be proposed/submitted using standard git issues as noted below.
+
+[Submit issue to Helm Chart] ( https://github.com/ppc64le/charts/issues )
+
+[Submit issue to Tomee docker image]  ( https://github.com/ppc64le/build-scripts/issues )
+
+[Submit issue to Tomee open source community] ( https://jira.apache.org/jira/projects/TOMEE/issues/TOMEE-2365?filter=allopenissues )
+
+
+
 > **Tip**: You can use the default `values.yaml`
 
 ## Note (Cluster Image Security)
